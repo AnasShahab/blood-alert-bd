@@ -5,7 +5,7 @@ function Joke(props){
         <div>
            {/*  <h3 style={{display:props.question ? "block" : "none"}}>Question: {props.question}</h3> */}
             <h3 style={{display:!props.question  && "none"}}>Question: {props.question}</h3>
-            <h3 style={{color: !props.question && "blue"}}>Answer: {props.answer}</h3>
+            <h3 style={{color: !props.question && "blue"}}>Answer: {props.punchLine}</h3>
             <hr/>
             <br/>
         </div>
