@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App6 from "./App6"
+import App8 from "./App8"
 
-ReactDOM.render(<App6 />, document.getElementById("root"));
+ReactDOM.render(<App8 />, document.getElementById("root"));
