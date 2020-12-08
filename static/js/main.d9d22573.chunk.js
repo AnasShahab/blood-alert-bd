@@ -1,0 +1,2 @@
+(this["webpackJsonpblood-alert-bd"]=this["webpackJsonpblood-alert-bd"]||[]).push([[0],{9:function(t,e,c){"use strict";c.r(e);var r=c(0),n=c(1),o=c.n(n),s=c(3),a=c.n(s),d=c.p+"static/media/Logo-Draft.c6814ca9.png";var i=function(){return Object(r.jsxs)("div",{children:[Object(r.jsx)("h1",{children:"Blood Alert BD"}),Object(r.jsx)("img",{src:d,alt:"logo"})]})};var b=function(){return Object(r.jsx)(i,{})};a.a.render(Object(r.jsx)(o.a.StrictMode,{children:Object(r.jsx)(b,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.d9d22573.chunk.js.map
