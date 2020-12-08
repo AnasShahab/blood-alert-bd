@@ -1,2 +1,0 @@
-(this["webpackJsonpblood-alert-bd"]=this["webpackJsonpblood-alert-bd"]||[]).push([[0],{9:function(e,t,r){"use strict";r.r(t);var n=r(0),c=r(1),o=r.n(c),d=r(3);var s=function(){return Object(n.jsx)("div",{children:Object(n.jsx)("h1",{children:"Blood Alert BD"})})};var b=function(){return Object(n.jsx)(s,{})};r.n(d).a.render(Object(n.jsx)(o.a.StrictMode,{children:Object(n.jsx)(b,{})}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.35cc1529.chunk.js.map
