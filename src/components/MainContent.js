@@ -5,7 +5,7 @@ function MainContent(){
     return(
         <div>
             <h1>Blood Alert BD</h1>
-            <img src="http://placekitten.com/300/200"></img>
+            <img src="http://placekitten.com/300/200" alt="icon" />
         </div>
     )
 }
