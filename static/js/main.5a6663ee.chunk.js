@@ -1,0 +1,2 @@
+(this["webpackJsonpblood-alert-bd"]=this["webpackJsonpblood-alert-bd"]||[]).push([[0],{9:function(t,e,c){"use strict";c.r(e);var n=c(0),r=c(1),o=c.n(r),i=c(3);var s=function(){return Object(n.jsxs)("div",{children:[Object(n.jsx)("h1",{children:"Blood Alerting BD"}),Object(n.jsx)("img",{src:"http://placekitten.com/300/200",alt:"icon"})]})};var d=function(){return Object(n.jsx)(s,{})};c.n(i).a.render(Object(n.jsx)(o.a.StrictMode,{children:Object(n.jsx)(d,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.5a6663ee.chunk.js.map
