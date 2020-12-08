@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/blood-alert-bd/static/js/main.35cc1529.chunk.js",
+    "main.js.map": "/blood-alert-bd/static/js/main.35cc1529.chunk.js.map",
+    "runtime-main.js": "/blood-alert-bd/static/js/runtime-main.5c1501b7.js",
+    "runtime-main.js.map": "/blood-alert-bd/static/js/runtime-main.5c1501b7.js.map",
+    "static/js/2.1244cb91.chunk.js": "/blood-alert-bd/static/js/2.1244cb91.chunk.js",
+    "static/js/2.1244cb91.chunk.js.map": "/blood-alert-bd/static/js/2.1244cb91.chunk.js.map",
+    "index.html": "/blood-alert-bd/index.html",
+    "static/js/2.1244cb91.chunk.js.LICENSE.txt": "/blood-alert-bd/static/js/2.1244cb91.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c1501b7.js",
+    "static/js/2.1244cb91.chunk.js",
+    "static/js/main.35cc1529.chunk.js"
+  ]
+}
