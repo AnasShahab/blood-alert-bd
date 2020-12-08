@@ -1,11 +1,16 @@
-//import logo from './logo.svg';
 //import './App.css';
 import React from 'react'
 import MainContent from "./components/MainContent.js"
+import Header from "./components/Header.js"
+import Foooter from "./components/Footer.js"
 
 function App(){
   return(
-    <MainContent />
+    <div>
+      <Header />
+      <MainContent />
+      <Foooter />
+    </div>
   )
 }
 
