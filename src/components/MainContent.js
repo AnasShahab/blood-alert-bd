@@ -1,35 +1,33 @@
 import React from 'react'
 import logo from '/home/mr_white/blood-alert-bd/blood-alert-bd/src/images/Logo-Draft.png'
-//import './App.css'
+import { Header, Container, Image } from 'semantic-ui-react'
 
 function MainContent(){
     return(
+/*         <div>
+<h1 class="ui center aligned header">Blood Alert BD</h1>
+    <img class="ui centered medium image" src={logo} alt="logo" />
+
+
+<div class="ui segment">
+    <h2>Why Donate?</h2>
+    <p>Helping people is a noble job</p>
+</div>
+
+</div> */
         <div>
-            <h1>Blood Alert BD</h1>
-            <img src={logo} alt="logo" />
-            <section>
-                <h2>This is a section.Why Donate?</h2>
+            <Header as='h1' textAlign='center'>
+                <Header.Content>Blood Alert BD</Header.Content>
+             </Header>
+            <Image
+                centered
+                size='medium'
+                src={logo}
+              />
+              <Container text>
+                <Header as='h2'>Why Donate?</Header>
                 <p>Helping people is a noble job</p>
-                </section>
-
-            <section>
-                <h2>This is a section. Effect of Donating</h2>
-                <p>Body remains fit</p>
-            </section>
-
-            <article>
-                <h3>This is an article. Some forum post or blog post</h3>
-                <p>Blah blah</p>
-            </article>
-
-            <article>
-                <h3>This is an article. Some Newspaper article</h3>
-                <p>Blah blah</p>
-            </article>
-
-            <aside>
-                <h4>This is aside</h4>
-            </aside>
+              </Container>
         </div>
     )
 }

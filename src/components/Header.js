@@ -1,24 +1,40 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Button, Dropdown, Menu } from 'semantic-ui-react'
 
-function Header(){
-    return(
-        <div>
-{/*             <header>
-                <h1>Header. What do we do?</h1>
-                <p>Blach blah</p>
-            </header> */}
-            <header>
-                <nav>
-                    <a href="">Home</a> |
-                    <a href="">Find Blood</a> |
-                    <a href="">Donate Blood</a> |
-                    <a href="">Contact</a> |
-                    <a href="">Login</a>
-                </nav>
-            </header>
-        </div>
-
+class Header extends Component{
+    state = { activeItem: 'home' }
+    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+    render(){
+        const { activeItem } = this.state
+        return(
+        <Menu size='large'>
+        <Menu.Item
+          name='home'
+          active={activeItem === 'home'}
+          onClick={this.handleItemClick}
+        />
+        <Menu.Item
+          name='contact'
+          active={activeItem === 'contact'}
+          onClick={this.handleItemClick}
+        />
+          <Dropdown item text='Blood Services'>
+            <Dropdown.Menu>
+              <Dropdown.Item>Donate</Dropdown.Item>
+              <Dropdown.Item>Request</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+          <Menu.Menu position='right'>
+          <Menu.Item>
+            <Button primary>Sign Up</Button>
+          </Menu.Item>
+          <Menu.Item>
+            <Button primary>Login</Button>
+          </Menu.Item>
+        </Menu.Menu>
+      </Menu>
     )
+  }
 }
 
 export default Header
