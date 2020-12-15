@@ -1,16 +1,17 @@
 import React from 'react'
 import MainContent from "./components/MainContent.js"
-import Header from "./components/Header.js"
-import Foooter from "./components/Footer.js"
+import Head from "./components/Head.js"
+import Foot from "./components/Foot.js"
+import Stat from "./components/Stat.js"
+import './App.css'
 
 
 function App(){
   return(
     <div>
-        <Header />
+        <Head />
         <MainContent />
-{/*       <Foooter /> */}
-
+        <Foot />
     </div>
   )
 }

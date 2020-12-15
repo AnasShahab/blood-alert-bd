@@ -1,0 +1,14 @@
+.footer{
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+}
+
+.stats{
+    float: right;
+}
+
+/*.footer-1{
+    margin-bottom: 10px;
+    background-color: red;
+} */
