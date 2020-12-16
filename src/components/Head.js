@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Button, Dropdown, Menu, Image, Icon, Grid } from 'semantic-ui-react'
-import logo from '/home/mr_white/blood-alert-bd/blood-alert-bd/src/images/Brand-Logo-V3.png'
+import { Button, Dropdown, Menu, Image, Icon, Grid, Radio, Checkbox } from 'semantic-ui-react'
+import logo from '/home/mr_white/blood-alert-bd/blood-alert-bd/src/images/64x64.png'
+import ToggleSwitch from "./ToggleSwitch"
 
 class Head extends Component{
     state = { activeItem: 'home' }
@@ -12,8 +13,9 @@ class Head extends Component{
 
                 <Menu.Item name='home'>
                   <Image 
+                    rounded
                     src={logo}
-                    size='tiny'
+                    size='mini'
                   />
                 </Menu.Item>
 
@@ -60,8 +62,8 @@ class Head extends Component{
                 </Dropdown>
 
               <Menu.Item
-                name='F A Qs'
-                active={activeItem === 'F A Qs'}
+                name='F A Q'
+                active={activeItem === 'F A Q'}
                 onClick={this.handleItemClick}
               />
 
@@ -71,35 +73,18 @@ class Head extends Component{
                   active={activeItem === 'Blog'}
                   onClick={this.handleItemClick}
                 />
-
-                <Dropdown 
-                  item text='Language'
-                  name='Language'
-                  active={activeItem === 'Language'}
-                  onClick={this.handleItemClick}>
-                    <Dropdown.Menu>
-                      <Dropdown.Item>English</Dropdown.Item>
-                      <Dropdown.Item>Bengali</Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
-
               <Menu.Item>
-                <a href='https://www.facebook.com/groups/bloodalertbd' target='_blank'>
-                  <Button color='facebook'>
-                    <Icon name='facebook' />Facebook
-                  </Button> 
-                </a>
+                <ToggleSwitch />
               </Menu.Item>
 
-
-
                 <Menu.Item>
-                  <Button primary>Sign In</Button>
+                  <Button color="instagram">Sign In</Button>
                 </Menu.Item>
 
               </Menu.Menu>
 
             </Menu>
+            
 
     )
   }

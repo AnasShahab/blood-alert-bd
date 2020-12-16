@@ -1,6 +1,6 @@
 import React from 'react'
 import { Segment, Container, Grid, Header, List, Divider, Image } from 'semantic-ui-react'
-import logo from '/home/mr_white/blood-alert-bd/blood-alert-bd/src/images/Brand-Logo-V3.png'
+import logo from '/home/mr_white/blood-alert-bd/blood-alert-bd/src/images/64x64.png'
 
 function Foot(){
     return(
@@ -45,7 +45,7 @@ function Foot(){
                     </Grid>
   
                     <Divider inverted section /> */}
-                    <Image centered size='tiny' src={logo} />
+                    <Image centered size='mini' src={logo} />
                     <List horizontal inverted divided link size='small'>
                         <List.Item as='a' href='#'>
                             Site Map

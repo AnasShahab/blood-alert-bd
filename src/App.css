@@ -8,7 +8,33 @@
     float: right;
 }
 
+.test{
+    background-color: blue;
+}
+
+.test1{
+    background-color: red;
+}
 /*.footer-1{
     margin-bottom: 10px;
     background-color: red;
 } */
+  
+/* @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
+  
+@keyframes App-logo-spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  } */
+
+.btntrans{
+    transform: rotate(45deg);
+}
