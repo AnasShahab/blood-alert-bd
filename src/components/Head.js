@@ -1,35 +1,46 @@
 import React, { Component } from 'react'
-import { Button, Dropdown, Menu, Image, Icon, Grid, Radio, Checkbox } from 'semantic-ui-react'
+import { Button, Dropdown, Menu, Image, Icon, Grid, Radio, Checkbox, List } from 'semantic-ui-react'
 import logo from '/home/mr_white/blood-alert-bd/blood-alert-bd/src/images/64x64.png'
 import ToggleSwitch from "./ToggleSwitch"
 
 class Head extends Component{
+/*   constructor(){
+    super()
+    this.state={ activeItem: 'home' }
+  }
+  function handleItemClick(name){
+    return(
+      this.setState({ activeItem: name })
+    )    
+  } */
     state = { activeItem: 'home' }
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
     render(){
         const { activeItem } = this.state
         return(
+          
               <Menu inverted size='large'>
 
-                <Menu.Item name='home'>
+                <Menu.Item
+                name='home' 
+                active={activeItem === 'home'}
+                onClick={this.handleItemClick} >
                   <Image 
                     rounded
                     src={logo}
                     size='mini'
+                    spaced='right'
                   />
+                 Home
                 </Menu.Item>
 
-                <Menu.Item
+
+{/*                 <Menu.Item
+
                   name='home'
                   active={activeItem === 'home'}
                   onClick={this.handleItemClick}
-                />
-
-{/*               <Menu.Item
-                name='contact'
-                active={activeItem === 'contact'}
-                onClick={this.handleItemClick}
-              /> */}
+                /> */}
 
               <Dropdown 
                 item text='Blood Services' 
