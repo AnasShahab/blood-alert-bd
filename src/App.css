@@ -1,6 +1,6 @@
 .footer{
-    position: absolute; 
-    bottom: 0px; 
+    position: relative; 
+    top: 20px; 
     width: 100%;
 }
 
@@ -9,12 +9,29 @@
     background-color: red;
 }
 
-.test{
+/* .test{
     background-color: blue;
 }
 
 .test1{
     background-color: red;
+} */
+.imgslide{
+  width: 90%;
+  height: 300px;
+/*  opacity: 0.6;
+   display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  
+}
+.reqimg{
+  width: 700px;
+  height: 400px;
+  margin: 5px;
+}
+.blogimg{
+  border: 1px solid #ddd;
 }
 /*.footer-1{
     margin-bottom: 10px;

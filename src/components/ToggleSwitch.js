@@ -15,7 +15,7 @@ class ToggleSwitch extends Component {
     constructor(){
         super()
         this.state={
-            checked: true
+            checked: false
         }
         this.handleChange=this.handleChange.bind(this)
     }
@@ -30,20 +30,19 @@ class ToggleSwitch extends Component {
                     onChange={this.handleChange}
                     checked={this.state.checked}
                     handleDiameter={30}
-                    offColor="#085" //green
-                    onColor="#B20000" //red
-                    offHandleColor="#000000" //cyan
-                    onHandleColor="#ffffff" //green
+                    offColor="#085" 
+                    onColor="#B20000" 
+                    offHandleColor="#000000"
+                    onHandleColor="#ffffff" 
                     height={40}
                     width={80}
                     checkedIcon={
                         <div style={textSwitch}>ENG</div>
                     }
                     uncheckedIcon={
-                        <div style={textSwitch}>BNG</div>
+                        <div style={textSwitch}>বাংলা</div>
                     }
                 />
-                {/* <p>The switch is <b>{this.state.checked ? 'on' : 'off'}</b>.</p> */}
             </div>
         );
     }
